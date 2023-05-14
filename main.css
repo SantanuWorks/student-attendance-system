@@ -1,0 +1,47 @@
+body{
+	background-color: #BB8FCE;
+	font-size: 16px ;
+}
+.height_button { height: 40px; width: 49%; }
+.margin_10_10{ margin: 10px 0px 10px 0; }
+h1{ color: white; margin-top: 75px ; margin-left: 31%; }
+input[type="text"], input[type="password"], input[type="number"]{
+	width: 95%;
+	height: 30px;
+}
+input[type="submit"], input[type="reset"]{
+	width: 32%;
+	height: 30px;
+}
+select{
+	width: 97%;
+	height: 40px;
+}
+.main_box, .big_main_box{
+	background-color: white;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	padding: 15px;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 3px 0 20px 0px ;
+}
+.big_main_box{
+	left: 23%;
+	width: 700px;
+	top: 15%;
+}
+.list_box{
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	height: 330px;
+	width: 95%;
+	padding: 10px;
+	border: 1px solid gray;
+}
+select[name="subject"], select[name="month"]{
+	width: 49%;
+	height: 30px;
+}
+#attend_head{ margin-top: 27px; }
